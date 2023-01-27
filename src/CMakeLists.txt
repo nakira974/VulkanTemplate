@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
 SET(PROJECT_NAME "VulkanTemplate")
 file(GLOB HEADERS "*.h" "*.hpp")
 file(GLOB SOURCE "*.cpp" ${BASE_HEADERS} ${HEADERS})
